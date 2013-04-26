@@ -1,0 +1,17 @@
+<html>
+
+<body>
+
+<h1>Play Poker</h1>
+
+<ul>
+	<% @deal.each do |d| %>
+	<li><%= d %></li>
+	<% end %>
+</ul>
+
+<h3><%= link_to 'Click here to deal again!', "/poker" %></h3>
+
+</body>
+
+</html>
